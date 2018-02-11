@@ -4,7 +4,7 @@ void main(void)
 {
 	int i,j,x,y;
 	clrscr();
-	printf("\n\n  * * * �˷��ھ��� * * * \n\n");
+	printf("\n\n  * * * ³Ë·¨¿Ú¾÷±í * * * \n\n");
 	x=9;
 	y=5;
 	for(i=1;i<=9;i++)
@@ -39,7 +39,28 @@ void main(void)
 
 
 
+/* my small example */
+#include<stdio.h>
+main()
+{
 
+int i,j,a=1;
+
+printf("   ");
+for(i=1;i<=9;i++)
+printf("%3i",i);
+printf("\n");
+for(j=1;j<=9;j++)
+{
+    printf("%3i",j);
+for(i=1;i<=9;i++)
+printf("%3i",i*a);
+
+a++;
+printf("\n");
+}
+
+}
 
 
 
